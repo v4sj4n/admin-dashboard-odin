@@ -24,7 +24,7 @@ aside {
 
     a {
         display: grid;
-text-decoration: none;
+        text-decoration: none;
         grid-template-columns: 1fr 4.5fr;
         align-items: center;
         column-gap: 1rem;
@@ -38,9 +38,7 @@ text-decoration: none;
             font-size: 1.33rem;
         }
     }
-
 }
-
 
 aside>div:nth-child(2) {
     margin-bottom: 2rem;
@@ -66,6 +64,8 @@ header>div:first-child {
             border-radius: 20rem;
             border: none;
             background-color: #e2e8f0;
+            padding-left: 1rem;
+            height: 2rem;
         }
 
         margin-right: 2rem;
@@ -83,12 +83,10 @@ aside+div {
     margin-right: 3rem;
 }
 
-
 .admin-pfp {
     width: 2.5rem !important;
     border-radius: 1.5rem;
 }
-
 
 header>div:nth-child(2) {
     margin-top: 0.5rem;
@@ -96,9 +94,10 @@ header>div:nth-child(2) {
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
     column-gap: 1.5rem;
     align-items: center;
-    button{
+
+    button {
         padding: 1rem 2rem;
-        border-radius: 0.25rem;
+        border-radius: 0.5rem;
         border: none;
         background-color: #0ea5e9;
         font-size: 1.2rem;
@@ -123,5 +122,4 @@ header>div:nth-child(2) {
 
         justify-self: start;
     }
-
 }
