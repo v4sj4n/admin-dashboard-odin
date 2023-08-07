@@ -1,0 +1,43 @@
+:root,
+html,
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+}
+
+aside {
+    background-color: #0c4a6e;
+    height: 100svh;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+
+    >a:first-child {
+        margin-bottom: 2.5rem;
+    }
+
+    a {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        align-items: center;
+        column-gap: 2rem;
+
+        img {
+            width: 3rem;
+        }
+
+        p {
+            color: #e0f2fe;
+            font-size: 1.33rem;
+        }
+    }
+
+}
+
+aside>div:nth-child(2) {
+    margin-bottom: 2rem;
+}
